@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6622830454833961102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5273230519594442075}
+  - component: {fileID: 1188863054431996431}
+  - component: {fileID: 1562150321924214427}
+  - component: {fileID: 2132853257342294578}
+  - component: {fileID: 7975110367699060585}
+  m_Layer: 0
+  m_Name: Spawn Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5273230519594442075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622830454833961102}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0695587, y: -0.437155, z: -0.048300393}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1188863054431996431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622830454833961102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2def203f91ebb9348b5a9f7425894cf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bomb: {fileID: 4688414078978113429, guid: edfecd064bc7045418886e4c753559d9, type: 3}
+  bombArea: {fileID: 9089200618514375984, guid: 608e6a1ffbaa22147a5c49c688d3e634, type: 3}
+--- !u!114 &1562150321924214427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622830454833961102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70528bb8c2bba744a0534473e234332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin1: {fileID: 6069108188583824697, guid: 3855952ffd54359478137912bd0e8d38, type: 3}
+  coin2: {fileID: 7158544035891957566, guid: 6e00c9fcb2b35b94cabf1269cca5885c, type: 3}
+  coin3: {fileID: 277345215680023340, guid: 5446789a79fd02c4483a344d46b43342, type: 3}
+  coin4: {fileID: 6082387806103937543, guid: fecc9226fe25439449326eae4678f9c4, type: 3}
+  rocketBox: {fileID: 1899900953243030914, guid: d09662d9b3843944c824767cad6e9dee, type: 3}
+  multiBox: {fileID: 7854075813725587731, guid: ffcc0786a9732ff4ab0de0dc6146c9db, type: 3}
+--- !u!114 &2132853257342294578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622830454833961102}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36d0a5050b554c4084ec4c3a94dfa7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rocket: {fileID: 6356698763577434506, guid: 539439278c1393144a0f242541a3e5e9, type: 3}
+  bombArea: {fileID: 9089200618514375984, guid: 608e6a1ffbaa22147a5c49c688d3e634, type: 3}
+--- !u!114 &7975110367699060585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622830454833961102}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5fdfb0bbf616ac4882998561f90fd7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bomb: {fileID: 4688414078978113429, guid: edfecd064bc7045418886e4c753559d9, type: 3}
