@@ -73,10 +73,10 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!isFrozen)
             {
-                // Call the timer to freeze and unfreeze objects
+               
                 Invoke("FreezeObjectsForDuration", 0f);
 
-                // Set a flag to prevent continuous collisions during the freeze time
+                
                 isFrozen = true;
             }
            
