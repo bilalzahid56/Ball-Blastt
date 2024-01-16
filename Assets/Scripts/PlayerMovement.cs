@@ -118,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        // Reset the flag to allow collisions again
+        
         isFrozen = false;
     }
 
