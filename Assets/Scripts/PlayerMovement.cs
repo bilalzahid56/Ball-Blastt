@@ -103,7 +103,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        // After 5 seconds, unfreeze all objects
+       
         Invoke("UnfreezeObjects", 7f);
     }
 
