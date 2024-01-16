@@ -93,7 +93,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FreezeObjectsForDuration()
     {
-        // Freeze all objects except the one with this script
+        
         Rigidbody2D[] allRigidbodies2D = FindObjectsOfType<Rigidbody2D>();
         foreach (Rigidbody2D otherRb2D in allRigidbodies2D)
         {
